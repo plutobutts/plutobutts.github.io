@@ -1,0 +1,124 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:800px;
+  
+
+}
+.leftsideblue{
+   background-color:#433dbf;
+}
+.rightsideblue{
+    background-color:#433dbf;
+
+}
+
+.images-container{
+    height: 800px;
+    overflow-y: auto;
+
+	
+    width:700px;
+   
+}
+.sun1{
+
+	
+
+}
+.sun2{
+    margin-right: auto;
+    margin-left: auto;
+    width:700px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+.backbutton:hover{
+    transform: scale(0.8, 0.8);
+       
+}
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:white}
+
+
+.backbutton{
+    position:fixed;
+    left: 4px;
+    top: 15px;
+    font-family:'Text Me One', sans-serif;
+    color:white;
+ 
+
+}
+
+body{
+cursor: cell;
+}
+
+.girl{
+      position:fixed;
+    left: 134px;
+    top: 360px;
+  width:600px;
+  height:600px;
+}
+
+.boy{
+     position:fixed;
+    left: 182px;
+    top: 310px;
+  width:600px;
+  height:600px;
+
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{
+    .wrapper{
+
+        display:block;
+    }
+.leftsideblue{
+   background-color: blue;
+   display:none;
+}
+.rightsideblue{
+    background-color: blue;
+    display:none;
+}
+
+.images-container{
+    width:100%;
+
+}
+
+.images-container img{
+    width:100%;
+}
+
+
+
+body{
+background-color: blue;
+cursor: cell;
+}
+
+
+
+}
+
+
+
+
+
+

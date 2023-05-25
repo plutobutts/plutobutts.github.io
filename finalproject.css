@@ -1,0 +1,74 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+
+.homepage{
+	background-image:url("images/background-04.svg");
+	text-align: center;
+	background-size: cover;
+	width:1432px;
+	height:768px;
+  	padding-top: 200px;
+
+	
+
+}
+body{
+cursor: cell;
+}
+
+
+
+.box-five{
+	font-family:'Text Me One', sans-serif;
+	
+
+}
+
+.one{
+	font-family:'Text Me One', sans-serif;
+
+}
+
+.button-container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.two{
+	font-family:'Text Me One', sans-serif;
+
+}
+.three{
+	font-family:'Text Me One', sans-serif;
+
+}
+
+.four {
+	font-family:'Text Me One', sans-serif;
+
+}
+p{
+	font-family:'Text Me One', sans-serif;
+	color: white;
+	font-size:36px;
+	}
+
+.title{
+	font-size:136px;
+
+
+}
+a{
+	text-decoration: none;
+
+}
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white }

@@ -1,0 +1,39 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.background{
+	background-image:url("../images/background-04.svg");
+	text-align: center;
+	background-size: cover;
+	width:100%;
+	height:768px;
+  	padding-top: 200px;
+}
+
+.description1{
+	font-family:'Text Me One', sans-serif;
+	color: white;
+	font-size:36px;
+}
+.backbutton:hover{
+    transform: scale(0.8, 0.8);
+       
+}
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:white}
+
+
+.backbutton{
+    position:fixed;
+    left: 4px;
+    top: 15px;
+    font-family:'Text Me One', sans-serif;
+    color:white;
+
+    
+}
+

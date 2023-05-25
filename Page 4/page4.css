@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+body{
+background-image:url(../images/sunrisebackground-10.png);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.sun{
+animation-name:mymove;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+
+ @keyframes mymove {
+    from {transform:translate(0px,-115px)}
+    50%{transform:translate(0px, -105px)}
+    to{transform:translate(0px, -115px)}
+}
+.backbutton:hover{
+    transform: scale(0.8, 0.8);
+       
+}
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:white}
+
+
+.backbutton{
+    position:fixed;
+    left: 4px;
+    top: 15px;
+    font-family:'Text Me One', sans-serif;
+    color:white;
+
+    
+}
+body{
+cursor: cell;
+}
+
